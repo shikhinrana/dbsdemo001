@@ -1,6 +1,6 @@
 <?php
 $items = array();
-for($i = 9; $i < 10; $i++){
+for($i = 8; $i < 10; $i++){
 $items[$i] = "the value stands at $i";
 }
 header('Content-Type: application/json');
